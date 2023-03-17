@@ -1,0 +1,129 @@
+.job-openings {
+    padding: 77px 0 175px;
+    width: 100%;
+}
+.job-openings-inner {
+    width: 100%;
+    padding: 20px 0 0;
+}
+.job-openings-inner .pannel-tab .panel-heading {
+    width: 100%;
+    text-align: left;
+    outline: none;
+    display: flex;
+    position: relative;
+    padding: 30px 0px 40px;
+    border-top: solid 3px #F3F3F6;
+}
+.job-openings-inner .pannel-tab .panel-heading .job-openings-content {
+    width: calc(100% - 204px);
+}
+.job-openings-inner .pannel-tab .panel-heading .job-openings-content h3 {
+        color: #1D252D;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.05rem;
+    line-height: 30px;
+    font-family: "sofia-pro";
+    width: 100%;
+    margin-bottom: 13px;
+}
+.job-openings-inner .pannel-tab .panel-heading .job-openings-content .job-openings-location,
+.job-openings-inner .pannel-tab .panel-heading .job-openings-date span {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04rem;
+    color: #7A7A7F;
+    font-weight: 700;
+    margin: 0px;
+}
+.job-openings-inner .pannel-tab .panel-heading:after {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    right: 5px;
+    position: absolute;
+    top: 32px;
+    width: 8px;
+    border-color: #1D252D;
+    transform: rotate(45deg);
+    transition: all 0.35s ease-in-out;
+}
+.job-openings-inner .pannel-tab:last-child{
+    border-bottom: solid 3px #F3F3F6;   
+}
+.job-openings-inner .pannel-tab .panel-heading.open:after{
+    top: 42px;
+    transform: rotate(225deg);
+}
+
+.job-openings-inner .pannel-tab .panel-content {
+    padding-bottom: 40px;
+}
+.job-openings-inner .pannel-tab .panel-content .links-share {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    margin: 0 0 40px;
+}
+.job-openings-inner .pannel-tab .panel-content .links-share a{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.035rem;
+    position: relative;
+}
+.job-openings-inner .pannel-tab .panel-content .links-share a.full-discri:after {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    content: "";
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    border-color: #2E77DD;
+    transform: rotate(315deg);
+    transition: all 0.35s ease-in-out;
+    margin: 0 0 0 10px;
+}
+.job-openings-inner .pannel-tab .panel-content .links-share a svg {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.job-openings-inner .pannel-tab .panel-content .pannel-in p {
+    color: #7A7A7F;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    font-family: "sofia-pro";
+    width: 100%;
+    margin: 0 0 20px;
+}
+.job-openings-inner .pannel-tab .panel-content .pannel-in p:last-child{
+    margin-bottom: 0px;
+}
+.job-openings-inner .pannel-tab .panel-content > a.wp-block-button__link.wp-element-button {
+    margin: 30px 0 0;
+}
+
+
+  @media(max-width:991px){
+
+.job-openings {
+    padding: 0px 0 60px;
+   
+}
+
+.job-openings-main h2{ letter-spacing:0px; }
+
+  }
+

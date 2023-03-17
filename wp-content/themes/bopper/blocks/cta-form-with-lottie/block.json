@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/cta-form-with-lottie",
+    "title": "CTA - Form with Lottie",
+    "description": "A custom CTA - Form with Lottie block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "forms",
+    "keywords": [ "cta", "form", "lottie" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "cta-form-with-lottie.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": "file:./cta-form-with-lottie.css"
+}

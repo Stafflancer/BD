@@ -1,0 +1,45 @@
+.clutch-widget-sec {
+    width: 100%;
+    padding: 126px 0px 56px;
+    background: #fff;
+    position: relative;
+}
+.clutch-widget-sec:before{
+    height: 60%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    background: #EFEFEF;
+    position: absolute;
+}
+.clutch-widget-inner label.h4 {
+    color: #1C2126;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-family: "sofia-pro";
+    display: block;
+    text-align: center;
+}
+.clutch-widget-outer {
+    max-width: 1002px;
+    margin: auto;
+}
+.clutch-widget-outer .clutch-widget {
+    background: #fff;
+    padding: 0 0 20px;
+}
+
+
+
+ @media(max-width:768px){
+
+.banner-common-inner .banner-heading h1 {
+    font-size: 40px;
+    line-height: 50px;
+ 
+}
+
+ }

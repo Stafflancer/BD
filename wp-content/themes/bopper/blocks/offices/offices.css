@@ -1,0 +1,71 @@
+.offices{
+	width: 100%;
+	padding: 159px 0px 143px;
+}
+
+.offices-inner ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 180px;
+    grid-column-gap: 46px;
+    width: 100%;
+}
+
+.offices-inner ul li{
+	list-style: none;
+}
+.offices-inner ul li a h5 {
+    margin: 0 0 13px;
+}
+.offices-inner ul li span p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    color: #7A7A7F;
+}
+.offices-inner ul li span {
+    margin: 0 0 10px;
+    width: 100%;
+    display: block;
+}
+
+.offices-inner ul li .link-office{
+	font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.035rem;
+    position: relative;
+}
+.offices-inner ul li .phone-number-link{
+	margin-bottom: 15px;
+    display: block;
+}
+.offices-inner ul li a.common-link:after {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    content: "";
+    display: inline-block;
+    height: 9px;
+    right: -25px;
+    position: absolute;
+    top: 10px;
+    width: 9px;
+    border-color: #2E77DD;
+    transform: rotate(315deg);
+    transition: all 0.35s ease-in-out;
+}
+.offices-inner ul li a.common-link:hover::after{
+	right: -15px;
+}
+
+@media only screen and (max-width: 768px){
+	.offices {
+		width: 100%;
+		padding: 50px 0px 50px;
+	}
+	.offices-inner ul {
+		display: block;
+	}
+}

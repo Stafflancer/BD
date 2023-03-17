@@ -1,0 +1,42 @@
+.cta-buttons {
+    width: 100%;
+    padding: 145px 0px 60px;
+}
+.cta-buttons figure.has-pattern-show {
+    width: 100%;
+    position: absolute;
+    height: 444px;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    max-width: 1130px;
+}
+.cta-buttons-main{
+    position: relative;
+}
+.cta-buttons-main .cta-buttons-content h4 {
+    font-size: 27px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-family: "sofia-pro";
+    background: linear-gradient(to right, #5D0878 0%, #F95A57 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.cta-buttons-main .cta-buttons-content p {
+    color: #7A7A7F;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    line-height: 34px;
+    font-family: "sofia-pro";
+    width: 100%;
+    max-width: 536px;
+}
+.cta-buttons-main .cta-buttons-outer{
+    margin-top: 58px;
+}

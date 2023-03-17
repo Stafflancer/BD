@@ -1,0 +1,40 @@
+.large-body-copy{
+    width: 100%;
+    padding: 80px 0 51px;
+}
+.large-body-copy.san-diego-large{
+	padding: 0px 0px 121px 0px;
+}
+.large-body-copy .large-body-copy-first{
+    max-width: 872px;
+    margin: auto;
+}
+.large-body-copy .large-body-copy-first p {
+    color: #7A7A7F;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    line-height: 34px;
+    font-family: "sofia-pro";
+    margin-bottom: 20px;
+}
+.large-body-copy .large-body-copy-first p:last-child{
+    margin-bottom: 0px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	.large-body-copy .large-body-copy-first p {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.large-body-copy.san-diego-large{
+		padding: 40px 0 40px;
+	}
+	.page-contact .gform_legacy_markup_wrapper {
+		padding: 49px 15px 50px;
+	}
+}
+
+

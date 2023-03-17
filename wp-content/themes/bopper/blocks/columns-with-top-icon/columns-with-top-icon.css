@@ -1,0 +1,139 @@
+.columns-with-top-icon {
+    width: 100%;
+    padding: 178px 0 140px;
+}
+
+.columns-with-top-icon-main .icon-label-content {
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px;
+}
+.columns-with-top-icon-main .icon-label-content .icon {
+    margin: 0 20px 0 0;
+}
+
+.columns-with-top-icon-main .icon-label-content label.h4 {
+    margin: 0;
+}
+
+.columns-with-top-icon-main .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+}
+
+.columns-with-top-icon-main .columns .columns-item .icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffe800;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 0 28px;
+}
+.columns-with-top-icon-main .columns .columns-item .icon:before {
+    position: absolute;
+    background: #fff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    content: "";
+    z-index: 1;
+}
+
+.columns-with-top-icon-main .columns .columns-item .icon img {
+    position: absolute;
+    z-index: 9;
+    padding: 0 0 8px 12px;
+}
+.columns-with-top-icon-main .columns .columns-item h4{
+    margin-bottom: 20px;
+}
+.columns-with-top-icon-main .columns .columns-item  .content p{
+        color: #7A7A7F;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    font-family: "sofia-pro";
+    width: 100%;
+    margin: 0 0 15px;
+}
+.columns-with-top-icon-main .columns .columns-item  .content p:last-child{
+    margin-bottom: 0px;
+}
+
+.callout-card {
+    width: 100%;
+    padding: 40px 38px 30px;
+    border-radius: 5px;
+    position: relative;
+    background: linear-gradient(180deg, #4B37C9 0%,#D844A2 40%, #F0764D 100%) !important;
+}
+
+.callout-card-item label.h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 16px;
+    display: block;
+}
+.callout-card-item h3 {
+    color: #fff;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-family: "sofia-pro";
+}
+
+.card .bottom-date-btn a.common-btn {
+    height: 48px;
+    width: 48px;
+    background: #f9e547;
+    border-radius: 50%;
+    align-self: flex-end;
+    border: solid 2px #f9e547;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.35s ease-in-out;
+    margin: 40px 0 0;
+    margin-left: auto;
+}
+.card .bottom-date-btn a.common-btn svg {
+    fill: #1d252d;
+    stroke: #1d252d;
+}
+
+.card .bottom-date-btn a.common-btn:hover {
+    background: transparent;
+}
+
+
+
+@media(max-width:768px){
+
+
+    .columns-with-top-icon-main .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+}
+
+
+
+
+@media(max-width:575px){
+ .columns-with-top-icon-main .columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+}

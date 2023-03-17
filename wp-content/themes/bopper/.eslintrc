@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "plugin:@wordpress/eslint-plugin/esnext",
+        "plugin:@wordpress/eslint-plugin/recommended",
+        "plugin:eslint-comments/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "rules": {
+        "@wordpress/no-global-event-listener": 0, // Disable. We don't use React-based components.
+        "camelcase": 1
+    }
+}

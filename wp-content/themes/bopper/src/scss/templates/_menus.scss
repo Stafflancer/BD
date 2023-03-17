@@ -1,0 +1,145 @@
+//--------------------------------------------------------------
+// Menus and Sub-Menus
+//--------------------------------------------------------------
+.navigation-menu {
+	.menu {
+		> li {
+			&:not( :last-child ) {
+				margin-right: 1rem;
+			}
+		}
+
+		&.dropdown {
+			a {
+				&:not([rel="button"]) {
+					color: var(--wp--preset--color--background, #fff);
+					display: block;
+					font-size: var(--wp--preset--font-size--small, 1rem);
+					font-weight: 700;
+					padding: 0.667em 0.5rem;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
+			}
+
+			.menu-item-has-children {
+				a {
+					&:not([rel="button"]) {
+						padding: 0.667em 0.5rem 0.667em 1rem;
+					}
+				}
+			}
+		}
+	}
+
+	.sub-menu {
+		position: absolute;
+		--bopper-bg-opacity: 1;
+		background-color: rgba(0, 0, 0, var(--bopper-bg-opacity));
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		--bopper-shadow: 0 0.25rem 0.375rem -0.0625rem rgba(0, 0, 0, 0.1), 0 0.125rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.06);
+		box-shadow: 0 0 #0000, 0 0 #0000, var(--bopper-shadow);
+		box-shadow: var(--bopper-ring-offset-shadow, 0 0 #0000), var(--bopper-ring-shadow, 0 0 #0000), var(--bopper-shadow);
+		left: -999em;
+		top: 100%;
+		z-index: 99999;
+
+		.menu-item-has-children {
+			&:hover,
+			&:focus {
+				> .sub-menu {
+					left: 100%;
+				}
+			}
+		}
+	}
+}
+
+//-----------------------------------------
+// Menu Items With Children
+//-----------------------------------------
+.menu-item-has-children {
+	position: relative;
+
+	&:hover,
+	&:focus {
+		> .sub-menu {
+			left: 0;
+		}
+	}
+}
+
+//-----------------------------------------
+// Dropdown Styles
+//-----------------------------------------
+.dropdown {
+	ul {
+		li {
+			width: 100%;
+		}
+
+		a {
+			display: block;
+			width: 100%;
+			min-width: 12rem;
+		}
+	}
+}
+
+//-----------------------------------------
+// The Down Caret
+//-----------------------------------------
+.caret-down {
+	@apply block float-right h-full ml-8;
+
+	background: url( ../images/icons/caret-down.svg ) 50% 50% no-repeat;
+	background-size: 100%;
+	width: theme( 'spacing.8' );
+}
+
+//-----------------------------------------
+// Footer
+//-----------------------------------------
+.footer-menu {
+	a {
+		font-size: var(--wp--preset--font-size--small, 16px);
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	> li {
+		> a {
+			color: var(--wp--preset--color--foreground, #1d252d);
+			border-bottom: 2px solid var(--wp--preset--color--senary, #efefef);
+			display: block;
+			margin-bottom: 0.5rem;
+			padding-bottom: 0.5rem;
+			text-transform: uppercase;
+
+			&:hover,
+			&:focus {
+				color: var(--wp--preset--color--quaternary, #489fdf);
+			}
+		}
+	}
+
+	.sub-menu {
+		margin-bottom: 1rem;
+
+		a {
+			color: var(--wp--preset--color--primary, #004ea8);
+
+			&:hover,
+			&:focus {
+				color: var(--wp--preset--color--quaternary, #489fdf);
+			}
+		}
+	}
+
+	@media (min-width: 992px) {
+		> li:not(:first-of-type) {
+			margin-left: 2rem;
+		}
+	}
+}

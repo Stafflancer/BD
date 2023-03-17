@@ -1,0 +1,101 @@
+.faqs{
+	width: 100%;
+	padding: 81px 0px 47px;
+}
+
+.faqs .container {
+    max-width: 896px;
+}
+.faqs-main .faqs-inner {
+    width: 100%;
+    padding: 26px 0 0;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading .faqs-content {
+    max-width: 810px;
+    padding-right: 50px;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading {
+    width: 100%;
+    text-align: left;
+    outline: none;
+    display: flex;
+    position: relative;
+    padding: 30px 0px 22px;
+    border-top: solid 3px #F3F3F6;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading:after {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    right: 5px;
+    position: absolute;
+    top: 32px;
+    width: 8px;
+    border-color: #1D252D;
+    transform: rotate(45deg);
+    transition: all 0.35s ease-in-out;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading.open:after {
+    top: 42px;
+    transform: rotate(225deg);
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading .faqs-content h4 {
+    color: #1D252D;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.05rem;
+    line-height: 30px;
+    font-family: "sofia-pro";
+    width: 100%;
+    margin-bottom: 0px;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-content {
+    padding-bottom: 40px;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-content .pannel-in p {
+    color: #7A7A7F;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    font-family: "sofia-pro";
+    width: 100%;
+    margin: 0 0 20px;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-content .pannel-in p:last-child {
+    margin-bottom: 0px;
+}
+.faqs-main .faqs-inner .faqs-pannel-tab:last-child {
+    border-bottom: solid 3px #F3F3F6;
+}
+
+
+.faqs.software-saas-faq {
+    width: 100%;
+    padding: 241px 0px 47px;
+}
+.faqs.software-saas-faq .header-block.header-style-intro-right {
+    max-width: 536px;
+}
+
+
+@media(max-width:767px){
+.faqs .header-block h2{ letter-spacing:0px;  }
+
+
+}
+
+@media(max-width:575px){
+
+.faqs-main .faqs-inner .faqs-pannel-tab .faqs-panel-heading .faqs-content h4 {
+
+    font-size: 20px;
+ 
+}
+
+
+}

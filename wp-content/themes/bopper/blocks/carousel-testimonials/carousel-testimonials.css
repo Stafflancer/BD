@@ -1,0 +1,274 @@
+.testimonials {
+    width: 100%;
+    padding: 95px 0 118px;
+}
+.testimonials > figure.has-pattern-show {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.testimonials .container {
+    max-width: 1518px;
+}
+.testimonials-item-inner {
+    width: 100%;
+    max-width: 1296px;
+    padding-left: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+/*.testimonials-item-inner .test-img-com {
+    width: 620px;
+}*/
+/*.testimonials-item-inner  .case-study-block-bottom {
+    width: calc(100% - 620px);
+    padding-left: 67px;
+}*/
+.testimonials-item-inner .test-img-com {
+/*    width: 620px;*/
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.10);
+    border-radius: 5px;
+}
+.testimonials-item-inner .test-img-com:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #1D252D;
+  opacity: 0.25;
+  mix-blend-mode: multiply;
+}
+.testimonials-item-inner .test-img-com a.video-play-icon {
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 37px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.10);
+    right: 48px;
+    transition: all 0.35s ease-in-out;
+}
+.testimonials-item-inner .test-img-com a.video-play-icon:hover{
+  transform: scale(0.7);
+}
+.testimonials-item-inner .test-img-com a.video-play-icon:hover:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    border-radius: 50%;
+}
+.testimonials-item-inner .test-img-com a.video-play-icon:hover:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 1%;
+    top:1%;
+    display: block;
+    width: 98%;
+    height: 98%;
+    background: linear-gradient(to right, #FDD821 0%, #FC7417 100%);
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1s ease-in-out infinite;
+    animation: pulse-border 1s ease-in-out infinite;
+
+}
+
+@keyframes pulse-border {
+  0% {
+    transform:  scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform:  scale(1.7);
+    opacity: 0;
+  }
+}
+.testimonials-item-inner .test-img-com > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials-item-inner .case-study-block-bottom h5:before {
+    content: "";
+    background-image: url("../../assets/images/acf-icons/quotes.svg");
+    width: 25px;
+    height: 15px;
+    background-position: center center;
+    background-size: 100% 100%;
+    display: block;
+    margin: 0 0 20px;
+
+}
+.testimonials-item-inner .case-study-block-bottom h5 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 73px;
+}
+.testimonials-item-inner .case-study-block-bottom .news_content > p{
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 300;
+  color: #F9F9F9;
+}
+.testimonials-item-inner .case-study-block-bottom .news_content h2.news_heading{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 25px 0 0;
+  letter-spacing: normal;
+}
+.testimonials-item-inner .case-study-block-bottom .news_content .company-name{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+.testimonials-swiper .swiper-pagination {
+      position: initial !important;
+    /* max-width: 736px; */
+    margin: 85px 0 0 auto;
+    text-align: center;
+}
+.testimonials-swiper .swiper-button-next{
+  right: 0x;
+}
+.testimonials-swiper .swiper-button-prev{
+  left: 0x;
+}
+.testimonials-swiper  .swiper-pagination-bullet{
+  background-color: transparent;
+  opacity: 1;
+}
+.testimonials-swiper .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 26px;
+}
+.testimonials-swiper  .swiper-pagination-bullet--svg-animation {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+}
+.testimonials-swiper  span.swiper-pagination-bullet-active:before {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    content: "";
+    border: solid 1px #ffffff42;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+}
+.testimonials-swiper .swiper-pagination-bullet--svg-animation svg {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.testimonials-swiper  .swiper-pagination-bullet--svg-animation .svg__circle-inner {
+  stroke: #FFE800;
+  fill: #FFE800;
+  -webkit-transition: all 0.65s ease;
+  -moz-transition: all 0.65s ease;
+  -ms-transition: all 0.65s ease;
+  -o-transition: all 0.65s ease;
+  transition: all 0.65s ease;
+}
+.testimonials-swiper .swiper-pagination-bullet-active .svg__circle {
+  stroke: #FFE800;
+  stroke-dasharray: 75;
+  stroke-dashoffset: 0;
+  -webkit-animation: progress 6s ease-in-out 1 forwards;
+  -moz-animation: progress 6s ease-in-out 1 forwards;
+  -ms-animation: progress 6s ease-in-out 1 forwards;
+  animation: progress 6s ease-in-out 1 forwards;
+}
+.testimonials-swiper  .swiper-pagination-bullet-active .svg__circle-inner {
+  fill: #FFE800;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dashoffset: 75;
+    opacity: 1;
+  }
+  95% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@media (max-width: 1200px) {
+.testimonials-item-inner .case-study-block-bottom h5 {
+    font-size: 21px;
+    margin: 0 0 10px;
+
+}
+
+.testimonials-item-inner .case-study-block-bottom .news_content > p {
+    font-size: 16px;
+     line-height: 26px;
+}
+
+}
+
+
+
+@media (max-width: 991px) {
+
+  .swiper-button-next { display:none }
+  .swiper-button-prev {display: none;}
+.testimonials-item-inner .test-img-com {
+  
+    margin-bottom: 25px;
+
+}
+
+
+
+.testimonials-item-inner .case-study-block-bottom h5 {
+  
+    margin: 0 0 0px;
+}
+
+}
+
+
+@media (max-width: 991px) { 
+.testimonials-item-inner{ padding-left:0px; margin:0px; }
+
+ }
+
+

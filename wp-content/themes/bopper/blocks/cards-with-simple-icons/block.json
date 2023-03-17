@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/cards-with-simple-icons",
+    "title": "Cards with Simple Icons",
+    "description": "A custom Cards with Simple Icons block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "editor-table",
+    "keywords": [ "cards", "simple", "icons" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "cards-with-simple-icons.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": "file:./cards-with-simple-icons.css"
+}

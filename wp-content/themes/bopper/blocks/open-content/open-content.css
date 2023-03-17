@@ -1,0 +1,35 @@
+.open-content{
+	padding: 80px 0px;
+}
+.open-content .carousel-before-content {
+    max-width: 872px;
+    margin: auto;
+    width: 100%;
+}
+.open-content .carousel-before-content label.h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0 0 20px;
+    display: block;
+    color: #1D252D;
+    letter-spacing: -0.035rem;
+}
+.open-content .carousel-before-content p{
+	    color: #7A7A7F;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    font-family: "sofia-pro";
+}
+
+
+
+ 
+@media(max-width:768px){
+.open-content {
+    padding: 30px 0px;
+}
+
+}

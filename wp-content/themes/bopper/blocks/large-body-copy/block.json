@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/large-body-copy",
+    "title": "Large Body Copy",
+    "description": "A custom MLarge Body Copy block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "media-default",
+    "keywords": [ "large", "body", "copy" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "large-body-copy.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": ["file:./large-body-copy.css"]
+}

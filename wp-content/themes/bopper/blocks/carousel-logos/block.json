@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/carousel-logos",
+    "title": "Carousel - Logos",
+    "description": "A custom Carousel - Logos block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "embed-photo",
+    "keywords": [ "carousel", "logos" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "carousel-logos.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": [ "swiperjs-style", "file:./carousel-logos.css"],
+    "script": [ "swiperjs-script", "carousel-logos-script"]
+}

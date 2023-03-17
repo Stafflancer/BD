@@ -1,0 +1,182 @@
+{
+    "key": "group_6190d50632643",
+    "title": "Fields: Button — To Clone",
+    "fields": [
+        {
+            "key": "field_6190d55fef896",
+            "label": "Button Link",
+            "name": "button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_63b5627a50f4d",
+            "label": "Button Text Color",
+            "name": "button_text_color_theme",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "clone": [
+                "group_5d16233395958"
+            ],
+            "display": "group",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_61bb67cac8616",
+            "label": "Button Style",
+            "name": "button_style",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fill": "Fill",
+                "outline": "Outline"
+            },
+            "default_value": "fill",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_63b41416d930e",
+            "label": "Button Color Style",
+            "name": "button_color_style",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "color": "Color",
+                "gradient": "Gradient"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_6190d6aae54a5",
+            "label": "Button Color",
+            "name": "button_color",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63b41416d930e",
+                        "operator": "==",
+                        "value": "color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "clone": [
+                "group_5d16233395958"
+            ],
+            "display": "group",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 1
+        },
+        {
+            "key": "field_63b4162cd930f",
+            "label": "Gradient",
+            "name": "gradient",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63b41416d930e",
+                        "operator": "==",
+                        "value": "gradient"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "choices": {
+                "horizontal-rainbow": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(90deg, #1d252d, #4b37c9 14%, #d844a2 30%, #f0764d 45%, #ffe800 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Horizontal Rainbow<\/div>",
+                "yellow-to-orange": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(112deg, #fdd821 0%, #fc7417 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Yellow to Orange<\/div>",
+                "indigo-to-pink": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(112deg, #5d0878 0%, #f95a57 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Indigo to Pink<\/div>",
+                "mulberry-to-teal": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(143deg, #be4f81 0%, #146c94 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Mulberry to Teal<\/div>",
+                "green-to-blue": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(151deg, #52dc24 0%, #2271cf 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Green to Blue<\/div>",
+                "sky-blue-to-purple": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(112deg, #63cee6 0%, #7c42d1 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Sky Blue to Purple<\/div>",
+                "aqua-to-violet": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(112deg, #00fbe8 0%, #a100ff 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Aqua to Violet<\/div>",
+                "orange-to-yellow": "<div style=\"display: flex; align-items: center;\"><span style=\"background:linear-gradient(112deg, #e74733 0%, #f2872a 100%); border: 1px solid #ccc;display:inline-block; height: 15px; margin-right: 10px; width: 15px;\"><\/span>Orange to Yellow<\/div>"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1675144111
+}

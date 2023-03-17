@@ -1,0 +1,186 @@
+.carousel-logos {
+      position: relative;
+    padding: 143px 0px 116px;
+}
+.carousel-logos .carousel-before-content > img {
+    margin: 0 0 12px;
+}
+.carousel-logos .has-pattern-show {
+    position: absolute;
+    height: 63%;
+    width: 60%;
+    background-size: contain;
+    top: 0;
+    right: 0;
+}
+.carousel-logo-outer {
+    width: 100%;
+    display: flex;
+}
+.carousel-logo-outer .carousel-logos-main {
+    max-width: calc(100% - 536px);
+    position: relative;
+    width: 100%;
+    padding-right: 135px;
+}
+
+.carousel-logo-outer .carousel-logo-content{
+      max-width: 536px;
+      width: 100%;
+}
+.carousel-logo-outer .swiper-wrapper {
+    height: 337px;
+    padding: 8px 5px;
+}
+.swiper-wrapper .carousel-logos-item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+        height: calc((100% - 30px) / 2) !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-wrapper .carousel-logos-item img{
+          max-height: 100%;
+      width: auto;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+
+.carousel-logo-outer .carousel-logos-main .swiper-pagination {
+    position: initial !important;
+    max-width: 736px;
+    margin: 85px 0 0 auto;
+    text-align: center;
+}
+.carousel-logo-outer .carousel-logos-main  .swiper-pagination-bullet{
+  background-color: transparent;
+  opacity: 1;
+}
+.carousel-logo-outer .carousel-logos-main .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 10px;
+}
+.carousel-logo-outer .carousel-logos-main  .swiper-pagination-bullet--svg-animation {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+}
+.carousel-logo-outer .carousel-logos-main  span.swiper-pagination-bullet-active:before {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    content: "";
+    border: solid 1px #00000042;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+}
+.carousel-logo-outer .carousel-logos-main .swiper-pagination-bullet--svg-animation svg {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.carousel-logo-outer .carousel-logos-main  .swiper-pagination-bullet--svg-animation .svg__circle-inner {
+  stroke: #5B6770;
+  fill: #5B6770;
+  -webkit-transition: all 0.65s ease;
+  -moz-transition: all 0.65s ease;
+  -ms-transition: all 0.65s ease;
+  -o-transition: all 0.65s ease;
+  transition: all 0.65s ease;
+}
+.carousel-logo-outer .carousel-logos-main .swiper-pagination-bullet-active .svg__circle {
+  stroke: #5B6770;
+  stroke-dasharray: 75;
+  stroke-dashoffset: 0;
+  -webkit-animation: progress 6s ease-in-out 1 forwards;
+  -moz-animation: progress 6s ease-in-out 1 forwards;
+  -ms-animation: progress 6s ease-in-out 1 forwards;
+  animation: progress 6s ease-in-out 1 forwards;
+}
+.carousel-logo-outer .carousel-logos-main  .swiper-pagination-bullet-active .svg__circle-inner {
+  fill: #5B6770;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dashoffset: 75;
+    opacity: 1;
+  }
+  95% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+ @media(max-width:768px){
+
+.carousel-before-content h2{ letter-spacing:0px; }
+
+    .logos {
+    padding: 60px 0 0px;
+}
+
+    .carousel-logos {
+    position: relative;
+    padding: 50px 0px 60px;
+}
+    
+
+.before-content-outer .logo-content {
+ 
+    padding-top: 0px;
+}
+
+
+.carousel-logo-outer .carousel-logo-content {
+margin-top: 20px;
+ max-width: 100%;
+    
+}
+
+.carousel-logo-outer {
+ 
+    display: unset;
+}
+
+.carousel-logo-outer .carousel-logos-main {
+    max-width: calc(100%);
+    padding-right: 0px;
+
+}
+
+
+ }

@@ -1,0 +1,47 @@
+.full-width-video-embed {
+	width: 100%;
+	padding: 139px 0 0;
+}
+.full-width-video-embed .container{
+	width: 100%;
+	padding: 0px !important;
+	max-width: 100%;
+}
+
+.full-width-video-embed .header-block {
+    max-width: 1126px;
+    margin: 0 auto 70px;
+    padding: 0 15px;
+}
+.full-width-video-embed-inner {
+    width: 100%;
+}
+.full-width-video-embed-inner iframe{
+	width: 100%;
+	object-fit: cover;
+	height: 720px;
+}
+
+
+
+  @media(max-width:991px){
+
+.full-width-video-embed-inner iframe {
+    
+    height: 500px;
+}
+
+.full-width-video-embed{ padding:60px 0 0; }
+
+  }
+
+
+  @media(max-width:768px){
+
+  .full-width-video-embed .intro_text {
+
+max-width: 100%;
+
+  }
+
+}

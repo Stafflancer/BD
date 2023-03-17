@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/cta-grid",
+    "title": "CTA - Grid",
+    "description": "A custom CTA - Grid block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "grid-view",
+    "keywords": [ "cta", "promo", "bar" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "cta-grid.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": ["file:./cta-grid.css"]
+}

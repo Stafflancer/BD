@@ -1,0 +1,207 @@
+.list-with-icons {
+    width: 100%;
+    padding: 137px 0px 264px;
+}
+.list-with-icons > figure.has-pattern-show {
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 53%;
+}
+.list-with-icons .list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+.list-with-icons .list:before {
+    content: "B2B";
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+    -ms-writing-mode: tb-lr;
+    font-size: 500px;
+    writing-mode: vertical-lr;
+    line-height: 243px;
+    font-weight: 900;
+        z-index: -1;
+    letter-spacing: -0.5rem;
+    color: #F9F9F9;
+}
+.list-with-icons.bg-bop .list{
+    padding-bottom: 100px;
+}
+.list-with-icons.bg-bop .list:before {
+    content: "bop";
+    letter-spacing: -2.5rem;
+}
+.list-with-icons .list .list-inner-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.list-with-icons .list .list-inner-item .icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.35s ease-in-out;
+}
+.list-with-icons .list .list-inner-item.type-links .icon:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(112deg, #5D0878 0%, #F95A57 100%);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.35s ease-in-out;
+}
+.list-with-icons .list .list-inner-item .icon a{
+    position: relative;
+    z-index: 1;
+}
+.list-with-icons .list .list-inner-item .icon ~ * {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #1D252D;
+    font-weight: 900;
+}
+.list-with-icons .list .list-inner-item > a.list-link{
+    position: relative;
+}
+.list-with-icons .list .list-inner-item > a.list-link:after {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    content: "";
+    display: inline-block;
+    height: 9px;
+    right: -25px;
+    position: absolute;
+    top: 13px;
+    width: 9px;
+    border-color: #2E77DD;
+    transform: rotate(315deg);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.35s ease-in-out;
+}
+.list-with-icons .list .list-inner-item.type-links:hover a.list-link{
+    color: #2E77DD;
+}
+.list-with-icons .list .list-inner-item.type-links:hover a.list-link:after{
+    opacity: 1;
+    visibility: visible;
+    right: -15px;
+}
+.list-with-icons .list .list-inner-item.type-links:hover .icon:before{
+    transform: scale(1);
+}
+
+.list-with-icons .list .list-inner-item.type-links:hover .icon:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 1%;
+    top:1%;
+    display: block;
+    width: 98%;
+    height: 98%;
+    background: linear-gradient(to right, #FDD821 0%, #FC7417 100%);
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1s ease-in-out infinite;
+    animation: pulse-border 1s ease-in-out infinite;
+
+}
+.list-with-icons .list .list-inner-item h5 {
+    margin: 0;
+}
+@keyframes pulse-border {
+  0% {
+    transform:  scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform:  scale(1.7);
+    opacity: 0;
+  }
+}
+
+.bg-pattern figure.has-pattern-show {
+    position: absolute;
+    max-height: 602px;
+    max-width: 1000px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+
+@media (max-width: 1400px) {
+
+.list-with-icons .list:before {font-size: 300px;}}
+
+
+@media (max-width: 1300px) {
+.list-with-icons .list:before {
+    content: "B2B";
+    position: absolute;
+    top: 0;
+    right: 224px;
+    text-transform: uppercase;
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+    -ms-writing-mode: tb-lr;
+    font-size: 500px;
+    writing-mode: vertical-lr;
+    line-height: 243px;
+    font-weight: 900;
+    z-index: -1;
+    letter-spacing: -0.5rem;
+    color: #F9F9F9;
+}
+
+}
+
+
+
+@media (max-width: 991px) {
+
+
+.list-with-icons .list:before {
+
+    font-size: 400px;
+   
+}
+
+.list-with-icons .intro_text {
+   
+max-width: 100%;
+   
+}
+
+
+
+.list-with-icons {
+    width: 100%;
+    padding: 60px 0px 30px;
+}
+
+}

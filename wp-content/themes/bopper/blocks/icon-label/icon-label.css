@@ -1,0 +1,26 @@
+.icon-label {
+    padding: 40px 0px;
+    width: 100%;
+}
+.icon-label .icon-label-content {
+    display: flex;
+    align-items: center;
+}
+.icon-label .icon-label-content label.h4 {
+    margin: 0;
+}
+.icon-label .icon-label-content .icon {
+    margin: 0 20px 0 0;
+}
+
+
+
+ @media(max-width:991px){
+
+.page-testimonials .filter-list-block .latest-post-main .testimonials-item-inner {
+    display: unset;
+ 
+}
+
+
+ }

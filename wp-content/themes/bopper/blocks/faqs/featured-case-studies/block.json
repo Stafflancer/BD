@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/featured-case-studies",
+    "title": "Featured Case Studies",
+    "description": "A custom Featured Case Studies block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "forms",
+    "keywords": [ "featured", "case", "studies" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "featured-case-studies.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": true
+    },
+    "style": ["odometer-style", "file:./featured-case-studies.css"],
+    "script": ["odometer-script", "featured-case-studies-script"]
+}

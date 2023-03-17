@@ -1,0 +1,156 @@
+.hero-banner-common {
+    width: 100%;
+    padding: 89px 0 144px;
+}
+.hero-banner-common .text-dark .breadcrumbs .breadcrumbs-inner span{
+    color: #1C2126;
+}
+.hero-banner-common.has-white-background-color .banner-heading h1{
+    background: linear-gradient(to right, #FC7417 0%, #FDD821 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-banner-common.has-white-background-color .banner-content p{
+    color: #1C2126;
+}
+.banner-common-inner {
+    width: 100%;
+    text-align: center;
+}
+.banner-common-inner .banner-heading h1{
+	font-size: 80px;
+	line-height: 80px;
+	letter-spacing: -0.05rem;
+	color: #fff;
+	margin-bottom: 17px;
+}
+.banner-common-inner .banner-content {
+    max-width: 874px;
+    margin: auto;
+}
+.banner-common-inner .banner-content p{
+	    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    line-height: 34px;
+    font-family: "sofia-pro";
+    margin-bottom: 20px;
+}
+.banner-common-inner .banner-content p:last-child{
+	margin-bottom: 0px;
+}
+
+.banner-common-inner .wp-block-buttons {
+    justify-content: center;
+    margin: 58px 0 0;
+}
+
+.banner-common-inner .is-style-outline .wp-element-button.has-outline-white-color:hover{
+	color: #1d252d !important;
+}
+.banner-common-inner .wp-block-button a.wp-block-button__link {
+    padding: 25px 70px 28px;
+    height: 81px;
+    margin: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    background: transparent;
+    height: auto;
+    line-height: 24px;
+    transition: all 0.35s ease-in-out;
+}
+.hero-banner-common .has-pattern-show {
+    position: absolute;
+    height: 500px;
+    width: 60%;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    opacity: 0.10;
+    background-position: top -90px right;
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+
+
+
+	.banner-common-inner .banner-heading h1{
+		font-size: 60px;
+		line-height: 70px;
+	}
+	.banner-common-inner .banner-heading h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.hero-banner-common {
+		padding: 50px 0 90px;
+	}
+}
+
+@media(max-width:767px){
+
+
+
+.hero-banner-home .tag-lines span {
+    font-size: 269px;
+}
+	
+
+	.banner-common-inner .banner-content p {
+		font-size: 18px;
+	}
+}
+
+
+@media only screen and (max-width: 576px){
+
+.banner-common-inner .banner-content p{
+        
+    font-size: 16px;
+   
+}
+
+}
+
+@media(max-width:1200px){
+	
+	.banner-common-inner .banner-content p {
+		font-size: 20px;
+	}
+	.banner-common-inner .wp-block-button a.wp-block-button__link {
+		padding: 20px 70px 20px;
+	}
+}
+@media(max-width:567px){
+	.banner-common-inner .banner-heading h1 {
+		font-size: 30px !important;
+		line-height: 60px;
+	}
+	.banner-common-inner .banner-content p {
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
+
+
+@media(max-width:992px){
+
+
+.banner-heading h1{ text-align:center }
+ .banner-common-inner .banner-heading h1 {
+ font-size: 60px;
+ line-height: 70px;
+ }
+ .banner-common-inner .banner-content p {
+ font-size: 18px;
+ }
+}
+
+
+

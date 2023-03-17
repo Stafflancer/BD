@@ -1,0 +1,22 @@
+//--------------------------------------------------------------
+// Global Resets/Overrides
+//--------------------------------------------------------------
+
+:root {
+	/* Layout */
+	--layout-content-size: $layout-content-size;
+	--layout-wide-size: $layout-wide-size;
+
+	/* Font Family */
+	--fallback-font: system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+
+	/* Swiper JS */
+	--swiper-navigation-color: #fff;
+	--swiper-pagination-color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		scroll-behavior: smooth;
+	}
+}

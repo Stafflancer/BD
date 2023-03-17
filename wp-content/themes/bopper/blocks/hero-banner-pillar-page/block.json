@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/hero-banner-pillar-page",
+    "title": "Hero Banner - Pillar Page",
+    "description": "A custom Hero Banner - Pillar Page block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "admin-home",
+    "keywords": [ "hero", "banner", "pillar", "page" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-banner-pillar-page.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": ["file:./hero-banner-pillar-page.css"]
+}

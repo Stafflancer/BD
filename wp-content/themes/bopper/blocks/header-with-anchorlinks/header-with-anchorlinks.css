@@ -1,0 +1,35 @@
+.header-with-anchorlinks {
+    width: 100%;
+    padding: 40px 0 37px;
+}
+
+.header-with-anchorlinks-main .header-block.header-style-full {
+    max-width: 900px;
+}
+
+.header-with-anchorlinks-inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-with-anchorlinks-inner .anchorlinks a {
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px #D5D5D5;
+    color: #1C2126;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 35px;
+    font-family: "sofia-pro";
+    padding: 0px 10px 0;
+    padding-bottom: 28px;
+    align-items: center;
+}
+.header-with-anchorlinks-inner .anchorlinks a svg{
+    margin-left: 5px;
+}
+.header-with-anchorlinks-inner .anchorlinks:first-child a{
+    border-bottom: solid 1px #FFE800;
+    color: #2E77DD;
+}

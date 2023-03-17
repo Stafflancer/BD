@@ -1,0 +1,40 @@
+.button-group-sec {
+    padding: 117px 0 208px;
+    width: 100%;
+        content-visibility: visible;
+}
+
+.button-group-sec.has-black-background-color label.h4 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 38px;
+    font-family: "sofia-pro";
+}
+
+.button-group-sec .button-group-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button-group-sec .button-group-inner a.button-group {
+    border: solid 2px #fff !important;
+    padding: 25px 70px 28px;
+    margin: 0;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    background: transparent;
+    height: auto;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+}
+.button-group-sec .button-group-inner a.button-group:hover {
+    background: #fff;
+    color: #1d252d;
+}

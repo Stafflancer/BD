@@ -1,0 +1,126 @@
+.office-contacts{
+	width: 100%;
+	padding: 125px 0px 150px;
+}
+.office-contacts > .container{
+	max-width: 100%;
+	padding: 0 !important;
+}
+.office-contacts-top {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 990px;
+    padding-bottom: 289px;
+}
+.office-contacts-top .left-side-content {
+    max-width: 542px;
+    width: 100%;
+}
+
+.office-contacts-top .left-side-content .icon {
+    margin: 0 0 12px;
+}
+.office-contacts-top .left-side-content .intro_text p > span {
+    display: block;
+    margin: 30px 0 0;
+}
+.office-contacts-top .left-side-content .intro_text {
+    max-width: 256px;
+    margin: 0;
+}
+.office-contacts-top .left-side-content a.wp-block-button__link {
+    margin-top: 58px;
+}
+.wp-block-button__link.wp-element-button.office-contacts-btn:hover {
+    color: #1d252d !important;
+    background: transparent !important;
+}
+.office-contacts-top .right-side-content {
+    max-width: calc(100% -  542px);
+    width: 100%;
+    padding-left: 24px;
+    align-self: flex-end;
+}
+
+.office-contacts-top .right-side-content img {
+    width: 100%;
+}
+
+.virtual-tour-embed-bg {
+    width: 100%;
+    background: #EFEFEF;
+}
+.virtual-tour-embed-bg .virtual-tour-embed { max-width: 1002px; width: 100%;
+ margin: auto; transform: translateY(-97px); }
+
+.virtual-tour-embed-bg .virtual-tour-embed iframe{
+	width: 100% !important;
+}
+
+.form-content.page-contact .gform_legacy_markup_wrapper {
+    max-width: 763px;
+    margin: auto;
+    padding: 126px 15px 0px;
+}
+
+
+
+@media(max-width:767px){
+
+.page-contact form .gform_footer.top_label input{ padding:20px; }
+
+
+
+.office-contacts-top {
+ 
+    padding-bottom: 150px;
+}
+
+
+.office-contacts-top .right-side-content {
+    max-width: calc(70% );
+    margin: auto;
+    padding: 40px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.office-contacts-top .left-side-content a.wp-block-button__link {
+    margin-top: 25px;
+}
+
+.left-side-content h2{ letter-spacing:5px; }
+
+.intro_text {
+  
+    line-height: 40px;
+
+}
+
+
+    .office-contacts-top .left-side-content .intro_text {
+    max-width: 100%;
+
+}
+
+.office-contacts-top .left-side-content {
+ max-width: 100%; 
+   
+}
+
+
+    .office-contacts-top {
+  
+     display: inherit; 
+  
+}
+
+
+    .office-contacts {
+    width: 100%;
+    padding: 60px 0px 60px;
+}
+}

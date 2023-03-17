@@ -1,0 +1,148 @@
+.cta-subscribe {
+    padding: 210px 0 131px;
+}
+.cta-subscribe .container {
+    max-width: 1012px;
+}
+.cta-subscribe figure.has-pattern-show {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    max-width: 1144px;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.cta-subscribe-content {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.cta-subscribe-content .text-subscribe h5 {
+    font-size: 27px;
+    font-weight: 900;
+    margin: 0px !important;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-family: "sofia-pro";
+    background: linear-gradient(to right, #5D0878 0%, #F95A57 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cta-subscribe-content .text-subscribe .paragraph{
+    margin: 15px 0px 0px;
+}
+.cta-subscribe-content .text-subscribe .paragraph p{
+    color: #7A7A7F;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-family: "sofia-pro";
+}
+.cta-subscribe-content .text-subscribe .paragraph p:last-child{
+    margin-bottom: 0px;
+}
+.cta-subscribe-content .text-subscribe{
+    width: 403px;
+}
+.cta-subscribe-content .subscribe-form{
+    width: calc(100% - 403px);
+    padding-left:30px ;
+}
+.cta-subscribe-content .subscribe-form form {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    margin: 0;
+}
+.cta-subscribe-content .subscribe-form form .validation_message,
+.cta-subscribe-content .subscribe-form .gform_wrapper .gform_validation_errors{
+    display: none;
+}
+.cta-subscribe-content .subscribe-form form .gform_body.gform-body {
+    width: calc(100% - 114px);
+    padding-right: 15px;
+}
+.cta-subscribe-content .subscribe-form form .gform_footer.top_label {
+    padding: 0;
+    margin: 0;
+}
+.cta-subscribe-content .subscribe-form form .gform_body.gform-body label.gfield_label {
+    display: none;
+}
+.cta-subscribe-content .subscribe-form form .gform_body.gform-body  input {
+    border-bottom: solid 3px #1D252D;
+    padding: 0 30px 22px 30px;
+    outline: none;
+        color: #A3A3A3;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cta-subscribe-content .subscribe-form .gform_wrapper .gfield_error [aria-invalid=true]{
+    border: none;
+    border-bottom: solid 3px #c02b0a;
+}
+.cta-subscribe-content .subscribe-form form .gform_body.gform-body  input::placeholder{
+        color: #A3A3A3;
+}
+.cta-subscribe-content .subscribe-form form .gform_footer.top_label input {
+    padding: 10px 24px 14px 25px;
+    margin: 0 !important;
+    border-radius: 40px;
+    border: none !important;
+    cursor: pointer;
+    font-size: 18px !important;
+    font-weight: 900;
+    background: linear-gradient(112deg, #5D0878 0%, #F95A57 100%) !important;
+    height: auto;
+    line-height: normal;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+}
+
+
+@media(max-width:767px){
+
+
+    .cta-subscribe {
+ padding: 30px 0 50px;
+ }
+ .cta-subscribe-content .subscribe-form form .gform_footer.top_label input {
+ padding: 10px 24px 10px 25px;
+ }
+
+    .cta-form-with-lottie-main {
+ 
+    padding-bottom: 215px;
+ 
+}
+ .cta-subscribe-content {
+ text-align: center;
+ display: block;
+ }
+ .cta-subscribe-content .text-subscribe {
+ width: 100%;
+ }
+ .cta-subscribe-content .subscribe-form {
+ width: 100%;
+ margin-top: 20px;
+ }
+}
+
+
+@media(max-width:576px){
+
+.subscribe-form form .gform_footer.top_label input {
+    padding: 15px 35px;
+}
+
+.cta-form-with-lottie-main .cta-form-b2b-op {
+    width: 352px;
+}
+
+}

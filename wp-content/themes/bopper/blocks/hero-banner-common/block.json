@@ -1,0 +1,68 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "acf/hero-banner-common",
+	"title": "Hero Banner - Common",
+	"description": "A custom hero banner block.",
+	"category": "acf",
+	"usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+	"icon": "admin-home",
+	"keywords": [ "hero", "banner", "common" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "hero-banner-common.php"
+	},
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"alignContent": {
+			"type": "string",
+			"default": "center left"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"alignContent": "matrix",
+		"alignText": true,
+		"fullHeight": true,
+		"html": true,
+		"jsx": true,
+		"multiple": true,
+		"reusable": false
+	},
+	"style": "file:./hero-banner-common.css",
+	"example": {
+		"attributes": {
+			"backgroundColor": {
+				"type": "string",
+				"default": "primary"
+			}
+		},
+		"innerBlocks": [
+			{
+				"name": "core/heading",
+				"attributes": {
+					"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+				}
+			},
+			{
+				"name": "core/paragraph",
+				"attributes": {
+					"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet."
+				}
+			},
+			{
+				"name": "core/button",
+				"attributes": {
+					"text": "Read Here"
+				}
+			}
+		]
+	}
+}

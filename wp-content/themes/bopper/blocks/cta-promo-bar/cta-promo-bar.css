@@ -1,0 +1,68 @@
+.cta-promo-bar {
+    width: 100%;
+    padding: 80px 41px 67px 112px;
+    border-radius: 5px;
+}
+.cta-promo-bar .container {
+    position: initial !important;
+}
+.cta-promo-bar-inner .cta-promo-bar-btn {
+    align-self: flex-end;
+}
+.cta-promo-bar .cta-promo-bar-inner h3 {
+    letter-spacing: -0.09rem;
+    margin: 0px;
+    padding: 0 90px 0 0;
+}
+.cta-promo-bar-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.cta-promo-bar-btn > a.sbtn-view {
+    height: 48px;
+    width: 48px;
+    background: #f9e547;
+    border-radius: 50%;
+    align-self: flex-end;
+    border: solid 2px #f9e547;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.35s ease-in-out;
+}
+.cta-promo-bar-btn > a.sbtn-view svg {
+    fill: #1d252d;
+    stroke: #1d252d;
+}
+.cta-promo-bar-btn > a.sbtn-view:hover {
+    background: transparent;
+}
+.cta-promo-bar.content-marketing-connect {
+    max-width: 1096px;
+    margin: auto;
+    width: 100%;
+    padding: 66px 40px 52px 112px;
+    content-visibility: visible;
+    top: -86px !important;
+}
+
+
+@media(max-width:768px){
+
+.cta-promo-bar {
+    width: 100%;
+    padding: 50px 40px 50px 40px;
+    border-radius: 5px;
+}
+
+.cta-promo-bar .cta-promo-bar-inner h3 {
+    letter-spacing: -0.09rem;
+    margin: 0px;
+    padding: 0 0px 0 0;
+}
+    .cta-promo-bar {
+    width: 100%;
+    padding: 40px 15px 40px 15px;
+    border-radius: 5px;
+}
+}

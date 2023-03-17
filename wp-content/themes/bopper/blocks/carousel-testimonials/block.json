@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/carousel-testimonials",
+    "title": "Carousel - Testimonials",
+    "description": "A custom Carousel - Testimonials block",
+    "category": "acf",
+    "usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+    "icon": "testimonial",
+    "keywords": [ "carousel", "testimonials" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "carousel-testimonials.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        },
+        "alignContent": {
+            "type": "string",
+            "default": "center left"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "anchor": true,
+        "alignContent": "matrix",
+        "alignText": true,
+        "fullHeight": true,
+        "html": true,
+        "jsx": true,
+        "multiple": true,
+        "reusable": false
+    },
+    "style": [ "swiperjs-style", "file:./carousel-testimonials.css"],
+    "script": [ "swiperjs-script", "carousel-testimonials-script"]
+}
