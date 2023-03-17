@@ -1,0 +1,259 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms + Salesforce\n"
+"POT-Creation-Date: 2020-04-09 22:47-0400\n"
+"PO-Revision-Date: 2017-06-07 00:03-0500\n"
+"Last-Translator: Naomi C. Bush <naomi@gravityplus.pro>\n"
+"Language-Team: gravity+ <support@gravityplus.pro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-addon.php:253
+msgid "Take Salesforce action only when a payment is received."
+msgstr ""
+
+#: class-addon.php:343
+msgid "Updates and Support"
+msgstr ""
+
+#: class-addon.php:344
+#, php-format
+msgid ""
+"Enter your license key to receive updates and support for this plugin. If "
+"you don't have one, you can get one %shere%s."
+msgstr ""
+
+#: class-addon.php:348
+msgid "License Key"
+msgstr ""
+
+#: class-addon.php:354
+msgid "Get early access to new versions"
+msgstr ""
+
+#: class-addon.php:369
+msgid "Step 1: Instance"
+msgstr ""
+
+#: class-addon.php:373
+msgid "Salesforce Instance Name"
+msgstr ""
+
+#: class-addon.php:374
+msgid ""
+"Name of your Salesforce instance. See your field guide for instructions on "
+"how to find."
+msgstr ""
+
+#: class-addon.php:382
+msgid "Sandbox?"
+msgstr ""
+
+#: class-addon.php:383
+msgid "Is this a sandbox instance?"
+msgstr ""
+
+#: class-addon.php:397
+msgid "Step 2: Create application"
+msgstr ""
+
+#: class-addon.php:402
+msgid "Consumer Key"
+msgstr ""
+
+#: class-addon.php:408
+msgid "Consumer Secret"
+msgstr ""
+
+#: class-addon.php:414
+msgid "Save Credentials"
+msgstr ""
+
+#: class-addon.php:420
+msgid "Step 3: Connect to Salesforce"
+msgstr ""
+
+#: class-addon.php:596
+msgid ""
+"Instance name is incorrect. Please see field guide for instructions on how "
+"to find instance name"
+msgstr ""
+
+#: class-addon.php:827
+msgid "Authorize your Salesforce Account"
+msgstr ""
+
+#: class-addon.php:831
+#, php-format
+msgid "To get started, please %s."
+msgstr ""
+
+#: class-addon.php:866 class-addon.php:951
+msgid "Name"
+msgstr ""
+
+#: class-addon.php:867
+msgid "Action"
+msgstr ""
+
+#: class-addon.php:868 class-addon.php:971 class-addon.php:1066
+msgid "Salesforce Object"
+msgstr ""
+
+#: class-addon.php:900 class-addon.php:1125
+msgid "Create"
+msgstr ""
+
+#: class-addon.php:954
+msgid "Name for this feed"
+msgstr ""
+
+#: class-addon.php:960 class-addon.php:1060
+msgid "Salesforce Action"
+msgstr ""
+
+#: class-addon.php:963
+msgid ""
+"Select the action you want to perform on a Salesforce object when someone "
+"submits this form"
+msgstr ""
+
+#: class-addon.php:974
+msgid ""
+"Select the Salesforce object you want to create or update when someone "
+"submits this form"
+msgstr ""
+
+#: class-addon.php:981
+msgid "Existing Object ID"
+msgstr ""
+
+#: class-addon.php:984
+msgid ""
+"Select the field that holds the ID of the Salesforce object you want to "
+"update when someone submits this form"
+msgstr ""
+
+#: class-addon.php:1004
+msgid "Required Fields"
+msgstr ""
+
+#: class-addon.php:1007
+msgid "Select the form field with the value for the Salesforce required field"
+msgstr ""
+
+#: class-addon.php:1028
+msgid "Other Fields"
+msgstr ""
+
+#: class-addon.php:1031
+msgid ""
+"Select your Salesforce field name, then select the form field with the "
+"value for that field"
+msgstr ""
+
+#: class-addon.php:1035 class-addon.php:1106
+msgid "Salesforce Field"
+msgstr ""
+
+#: class-addon.php:1047 class-addon.php:1049 class-addon.php:1085
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-addon.php:1049
+msgid ""
+"When conditions are enabled, form submissions will only be sent to "
+"Salesforce when the conditions are met. When disabled, all form submissions "
+"will be sent to Salesforce."
+msgstr ""
+
+#: class-addon.php:1054
+msgid "Feed Name"
+msgstr ""
+
+#: class-addon.php:1073
+msgid "Salesforce Fields"
+msgstr ""
+
+#: class-addon.php:1129
+msgid "Update"
+msgstr ""
+
+#: class-addon.php:1403
+#, php-format
+msgid " %s Feed "
+msgstr ""
+
+#: class-addon.php:1403
+msgid "Created ID"
+msgstr ""
+
+#: class-addon.php:1436
+msgid "PDF"
+msgstr ""
+
+#: class-addon.php:1445
+msgid "All PDFs"
+msgstr ""
+
+#: class-addon.php:1516
+#, php-format
+msgid "Please add a %s field to your form."
+msgstr ""
+
+#: class-addon.php:2867
+#, php-format
+msgid "Salesforce Record ID: %s"
+msgstr ""
+
+#: class-addon.php:2943
+msgid "Salesforce"
+msgstr ""
+
+#: class-auto-upgrader.php:125
+msgid "Gravity Forms "
+msgstr ""
+
+#: class-auto-upgrader.php:139
+#, php-format
+msgid ""
+"%sRegister%s your copy of %s to receive access to automatic updates and "
+"support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: class-auto-upgrader.php:279
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: class-auto-upgrader.php:305
+msgid ""
+"An unexpected error occurred. Unable to find version details for this "
+"plugin. Please contact gravity+ Support."
+msgstr ""
+
+#: views/plugin-settings-authentication.php:14
+msgid ""
+"Enter and save your Salesforce instance ID, Client ID, and Client Secret "
+"first."
+msgstr ""
+
+#: views/plugin-settings-authentication.php:21
+msgid "Authorize"
+msgstr ""
+
+#: views/plugin-settings-authentication.php:27
+msgid "Unable to authorize"
+msgstr ""
+
+#: views/plugin-settings-authentication.php:33
+msgid "Authorized!"
+msgstr ""
